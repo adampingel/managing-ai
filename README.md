@@ -3,19 +3,19 @@
 Edit the markdown files, or run jupyter lab to edit the notebooks
 
 ```bash
-jupyter lab book
+jupyter lab
 ```
 
 To build the book, do this from the project root:
 
 ```bash
-jupyter-book build book
+jupyter-book build .
 
-git add book/_build
+git add _build
 git commit -m "..."
 git push
 ```
 
 ## One-time setup
 
-ghp-import -n -p -f book/_build/html
+ghp-import -n -p -f _build/html
