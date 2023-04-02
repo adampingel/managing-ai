@@ -2,3 +2,4 @@ root: 010-Introduction
 entries:
 - file: 020-Foo
 - file: 030-Notebook
+  title: Example Notebook Title
