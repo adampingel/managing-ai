@@ -14,10 +14,7 @@ jupyter-book build .
 git add _build
 git commit -m "..."
 git push
-```
 
-## One-time setup
-
-```bash
 ghp-import -n -p -f _build/html
 ```
+
