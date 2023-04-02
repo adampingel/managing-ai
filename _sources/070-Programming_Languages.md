@@ -1,4 +1,4 @@
-# programming languages
+# Programming Languages
 
 Lorem ipsum
 
