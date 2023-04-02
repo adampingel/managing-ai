@@ -1,6 +1,8 @@
 root: 000-Root
 entries:
 - file: 010-Introduction
+- file: 013-Corpora
+  title: Corpora
 - file: 020-Foo
 - file: 070-Programming_Languages
 - file: 090-Linguistics
