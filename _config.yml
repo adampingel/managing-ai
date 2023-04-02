@@ -1,5 +1,11 @@
-title: Managing AI Teams and Systems
+title: Managing AI
 author: Adam Pingel
 copyright: '2023'
 repository:
   url: https://github.com/adampingel/managing-ai
+parse:
+  myst_enable_extensions:
+    - amsmath
+sphinx:
+  config:
+    mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
