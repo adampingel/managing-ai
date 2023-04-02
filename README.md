@@ -18,4 +18,6 @@ git push
 
 ## One-time setup
 
+```bash
 ghp-import -n -p -f _build/html
+```
