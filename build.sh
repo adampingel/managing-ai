@@ -10,3 +10,5 @@ git commit -m "..."
 git push
 
 ghp-import -n -p -f _build/html
+
+echo "Browse to https://github.com/adampingel/managing-ai/actions to check progress"
