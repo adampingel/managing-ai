@@ -3,8 +3,9 @@ entries:
 - file: 010-Introduction
 - file: 020-Foo
 - file: 030-Notebook
-  title: Example Notebook Title
+  title: Example Notebook
 - file: 070-Programming_Languages
 - file: 090-Linguistics
 - file: 190-Math_Typesetting
 - file: 191-Charts
+  title: Charts Demo
