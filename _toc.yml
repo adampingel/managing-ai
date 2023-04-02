@@ -1,7 +1,9 @@
-root: 010-Introduction
+root: 000-Root
 entries:
+- file: 010-Introduction
 - file: 020-Foo
 - file: 030-Notebook
   title: Example Notebook Title
 - file: 040-Bar
 - file: 070-Programming_Languages
+- file: 090-Linguistics
