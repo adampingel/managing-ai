@@ -3,5 +3,5 @@
 To build the book, do this from the project root:
 
 ```bash
-jupyter-book build ./book
+jupyter-book build book
 ```
