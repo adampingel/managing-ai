@@ -6,15 +6,8 @@ Edit the markdown files, or run jupyter lab to edit the notebooks
 jupyter lab
 ```
 
-To build the book, do this from the project root:
+To build and publish the book, do this from the project root:
 
 ```bash
-jupyter-book build .
-
-git add _build
-git commit -m "..."
-git push
-
-ghp-import -n -p -f _build/html
+./buid.sh
 ```
-
