@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Bar &#8212; Managing AI Teams and Systems</title>
+    <title>Bar &#8212; Managing AI</title>
   
   
   
@@ -61,6 +61,7 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = '040-Bar';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -137,7 +138,7 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   
-    <p class="title logo__title">Managing AI Teams and Systems</p>
+    <p class="title logo__title">Managing AI</p>
   
 </a></div>
         <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
@@ -303,8 +304,10 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#section-1">Section 1</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#section-2">Section 2</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#inline-math">Inline math</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#math-blocks">Math blocks</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#latex-style-math">Latex-style math</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#numbering-equations">Numbering equations</a></li>
 </ul>
             </nav>
         </div>
@@ -316,16 +319,53 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="bar">
+  <section id="bar">
 <h1>Bar<a class="headerlink" href="#bar" title="Permalink to this heading">#</a></h1>
 <p>Hello world</p>
-<section id="section-1">
-<h2>Section 1<a class="headerlink" href="#section-1" title="Permalink to this heading">#</a></h2>
+<section id="inline-math">
+<h2>Inline math<a class="headerlink" href="#inline-math" title="Permalink to this heading">#</a></h2>
 <p>This is Section 1 of Chapter 4</p>
+<p>Inline math $this_{is}^{inline}$ here.</p>
 </section>
-<section id="section-2">
-<h2>Section 2<a class="headerlink" href="#section-2" title="Permalink to this heading">#</a></h2>
-<p>This is Section 2 of Chapter 4</p>
+<section id="math-blocks">
+<h2>Math blocks<a class="headerlink" href="#math-blocks" title="Permalink to this heading">#</a></h2>
+<p>$$
+\int_0^\infty \frac{x^3}{e^x-1},dx = \frac{\pi^4}{15}
+$$</p>
+<p>Looks good.</p>
+</section>
+<section id="latex-style-math">
+<h2>Latex-style math<a class="headerlink" href="#latex-style-math" title="Permalink to this heading">#</a></h2>
+<p>$$</p>
+<div class="amsmath math notranslate nohighlight">
+\[\begin{gather*}
+a_1=b_1+c_1\\
+a_2=b_2+c_2-d_2+e_2
+\end{gather*}\]</div>
+<p>$$</p>
+<p>$$</p>
+<div class="amsmath math notranslate nohighlight" id="equation-fdb39ba5-1c9a-404f-bebe-00718ea3dd83">
+<span class="eqno">(1)<a class="headerlink" href="#equation-fdb39ba5-1c9a-404f-bebe-00718ea3dd83" title="Permalink to this equation">#</a></span>\[\begin{align}
+a_{11}&amp; =b_{11}&amp;
+  a_{12}&amp; =b_{12}\\
+a_{21}&amp; =b_{21}&amp;
+  a_{22}&amp; =b_{22}+c_{22}
+\end{align}\]</div>
+<p>$$</p>
+</section>
+<section id="numbering-equations">
+<h2>Numbering equations<a class="headerlink" href="#numbering-equations" title="Permalink to this heading">#</a></h2>
+<div class="math notranslate nohighlight" id="equation-my-label">
+<span class="eqno">(2)<a class="headerlink" href="#equation-my-label" title="Permalink to this equation">#</a></span>\[w_{t+1} = (1 + r_{t+1}) s(w_t) + y_{t+1}\]</div>
+<p>Alternatively you can use the dollar math syntax with a prefixed label:</p>
+<p>$$
+w_{t+1} = (1 + r_{t+1}) s(w_t) + y_{t+1}
+$$ (my_other_label)</p>
+<p>Then you can link like so:</p>
+<ul class="simple">
+<li><p>A link to an equation directive: <a class="reference internal" href="#equation-my-label">(2)</a></p></li>
+<li><p>A link to a dollar math block: <code class="xref eq docutils literal notranslate"><span class="pre">my_other_label</span></code></p></li>
+</ul>
 </section>
 </section>
 
@@ -396,8 +436,10 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#section-1">Section 1</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#section-2">Section 2</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#inline-math">Inline math</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#math-blocks">Math blocks</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#latex-style-math">Latex-style math</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#numbering-equations">Numbering equations</a></li>
 </ul>
   </nav></div>
 
