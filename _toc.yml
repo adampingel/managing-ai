@@ -1,27 +1,32 @@
 format: jb-book
 root: 000-Root
 parts:
-  - caption: Introduction
+  - caption: Management
     chapters:
     - file: 010-Introduction
+
+  - caption: Machine Learning
+    chapters:
+    - file: ML-010-Introduction
 
   - caption: Natural Language
     chapters:
     - file: 013-Corpora
       title: Corpora
     - file: 090-Linguistics
-
-  - caption: Natural Language Processing
-    chapters:
-      - file: 050-Transformers
-        title: Transformers
+    - file: 050-Transformers
+      title: Transformers
 
   - caption: Technology
     chapters:
     - file: 070-Programming_Languages
 
+  - caption: People and Organizations
+    chapters:
+    - file: PO-010-Introduction
+
   - caption: Appendices
     chapters:
-      - file: 190-Math_Typesetting
-      - file: 191-Charts
-        title: Charts Demo
+    - file: 190-Math_Typesetting
+    - file: 191-Charts
+      title: Charts Demo
