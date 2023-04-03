@@ -11,7 +11,7 @@ parts:
 
   - caption: Natural Language
     chapters:
-    - file: NL/090-Linguistics
+    - file: NL/011-Linguistics
     - file: NL/013-Corpora
       title: Corpora
     - file: NL/500-Transformers
