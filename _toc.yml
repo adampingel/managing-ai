@@ -3,7 +3,7 @@ root: 000-Root
 parts:
   - caption: Product, Project, and Program
     chapters:
-    - file: PPP-010-Introduction
+    - file: ProductProjectProgram/010-Introduction
 
   - caption: Machine Learning
     chapters:
@@ -21,9 +21,9 @@ parts:
     chapters:
     - file: Technology/070-Programming_Languages
 
-  - caption: People and Organizations
+  - caption: Culture, People, and Organizations
     chapters:
-    - file: PeopleOrganizations/010-Introduction
+    - file: CulturePeopleOrganizations/010-Introduction
 
   - caption: Appendices
     chapters:
