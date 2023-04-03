@@ -1,9 +1,9 @@
 format: jb-book
 root: 000-Root
 parts:
-  - caption: Management
+  - caption: Product, Project, and Program
     chapters:
-    - file: 010-Introduction
+    - file: PPP-010-Introduction
 
   - caption: Machine Learning
     chapters:
