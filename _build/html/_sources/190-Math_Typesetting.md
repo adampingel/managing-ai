@@ -1,4 +1,4 @@
-# Appendix: Math Typesetting
+# Appendix -- Math Typesetting
 
 ## Math blocks
 
