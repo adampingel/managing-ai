@@ -9,6 +9,10 @@ parts:
     chapters:
     - file: MachineLearning/010-Introduction
 
+  - caption: Data
+    chapters:
+    - file: Data/010-Introduction
+
   - caption: Natural Language
     chapters:
     - file: NaturalLanguage/011-Linguistics
