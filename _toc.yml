@@ -34,3 +34,4 @@ parts:
     - file: Appendices/190-Math_Typesetting
     - file: Appendices/191-Charts
       title: Charts Demo
+    - file: Appendices/900-Bibliography
