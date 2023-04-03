@@ -1,5 +1,0 @@
-# Conclusion
-
-Lorem ipsum
-
-## Section
