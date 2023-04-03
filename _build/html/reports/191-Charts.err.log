@@ -20,7 +20,7 @@ nbclient.exceptions.CellExecutionError: An error occurred while executing the fo
 pip3 install plotly pandas altair bokeh --user
 ------------------
 
-[0;36m  File [0;32m"/var/folders/8h/kc9vjv_j03q3_ndk2c42s1mr0000gn/T/ipykernel_89965/643070724.py"[0;36m, line [0;32m1[0m
+[0;36m  File [0;32m"/var/folders/8h/kc9vjv_j03q3_ndk2c42s1mr0000gn/T/ipykernel_90810/643070724.py"[0;36m, line [0;32m1[0m
 [0;31m    pip3 install plotly pandas altair bokeh --user[0m
 [0m               ^[0m
 [0;31mSyntaxError[0m[0;31m:[0m invalid syntax
