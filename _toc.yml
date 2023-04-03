@@ -8,6 +8,7 @@ parts:
   - caption: Machine Learning
     chapters:
     - file: MachineLearning/010-Introduction
+    - file: MachineLearning/600-NeuralNetworks
 
   - caption: Data
     chapters:
