@@ -11,10 +11,10 @@ parts:
 
   - caption: Natural Language
     chapters:
-    - file: 013-Corpora
+    - file: NL/090-Linguistics
+    - file: NL/013-Corpora
       title: Corpora
-    - file: 090-Linguistics
-    - file: 050-Transformers
+    - file: NL/500-Transformers
       title: Transformers
 
   - caption: Technology
