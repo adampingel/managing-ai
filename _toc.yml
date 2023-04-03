@@ -7,26 +7,26 @@ parts:
 
   - caption: Machine Learning
     chapters:
-    - file: ML-010-Introduction
+    - file: MachineLearning/010-Introduction
 
   - caption: Natural Language
     chapters:
-    - file: NL/011-Linguistics
-    - file: NL/013-Corpora
+    - file: NaturalLanguage/011-Linguistics
+    - file: NaturalLanguage/013-Corpora
       title: Corpora
-    - file: NL/500-Transformers
+    - file: NaturalLanguage/500-Transformers
       title: Transformers
 
   - caption: Technology
     chapters:
-    - file: 070-Programming_Languages
+    - file: Technology/070-Programming_Languages
 
   - caption: People and Organizations
     chapters:
-    - file: PO-010-Introduction
+    - file: PeopleOrganizations/010-Introduction
 
   - caption: Appendices
     chapters:
-    - file: 190-Math_Typesetting
-    - file: 191-Charts
+    - file: Appendices/190-Math_Typesetting
+    - file: Appendices/191-Charts
       title: Charts Demo
