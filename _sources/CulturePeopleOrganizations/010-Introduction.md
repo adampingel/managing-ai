@@ -1,4 +1,4 @@
-# People and Organizations
+# Culture, People, and Organizations
 
 team topologies
 
