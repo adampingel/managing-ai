@@ -3,6 +3,8 @@
 set -e
 set -x
 
+jupyter-book clean .
+
 jupyter-book build .
 
 git add _build
