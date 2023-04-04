@@ -6,3 +6,5 @@
 * data observability
 * persistent globally unique identifiers (PGUIDs)
 * deduplication
+* PII
+* provenance
