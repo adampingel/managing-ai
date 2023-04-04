@@ -9,24 +9,16 @@ load corpora (Federalist Papers, Shakespeare, …)
 collection of publically available information and personal opinions
 copyright notice
 
-question answering
-pos tagging
 testing and data quality monitoring
-Scaling Laws for Neural Language Models
-Mark Liberman's "golden age of nlp" talk
 RACI Charts
 
 change data capture
 event sourcing
 
 knowledge graphs
-transformer architecture
-encoder/decoder
-self attention
-hyperparameter optimization
+
 technology landscape
 cloud vendors
-data
 tools
 notebooks
 
@@ -45,59 +37,26 @@ product management
 ongoing learning
 education
 LLM
-GPUs
-edge computing
 model quality evaluation
-document similarity
-statistical fallacies
-annotation teams
-active learning
-Snorkel
-transfer learning
+
 latency measurement
 provenance
-explainable
 attribution
-model updating Ala HAI's Helm
-edit models.  (eg trained on github)
-prompt engineering
-NER
-document segmentation
-history: cyc, Eliza, racter
 bottleneck problem
 
 team topologies
-
-glove
-bert
-bloom
-GPT
-xaviers catalog
-
-legal bert
-
-rlhf
 
 repeatability
 feature stores
 experiment tracking
 sentence splitting
 
-culture
-
 book.adoc content
-document segmentation
-document similarity
-summarization
-remainder of nlp google doc
-no model is perfect, product context matters
-start with data science and design first with 6 month lead time
 PII
 search
 TFIDF, BM25
 List metrics
 when to go beyond OSS/OTS software?
-
 
 “Attention is all you need” paper
 
@@ -127,12 +86,6 @@ Semi-Supervised Learning
 Wikipedia: https://en.wikipedia.org/wiki/Semi-Supervised_Learning#
 Semi-supervised learning, otherwise termed weak supervision, is a branch of machine learning where noisy, limited, or imprecise sources are used to provide supervision signal for labeling large amounts of training data in a supervised learning setting.[1] This approach alleviates the burden of obtaining hand-labeled data sets, which can be costly or impractical. Instead, inexpensive weak labels are employed with the understanding that they are imperfect, but can nonetheless be used to create a strong predictive model.[2][3][4] Semi-supervised learning can therefore be seen as a reasonable middleground between supervised and unsupervised machine learning approaches.
 
-Transformer
-Wikipedia: https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)
-A transformer is a deep learning model that adopts the mechanism of self-attention, differentially weighting the significance of each part of the input data. It is used primarily in the fields of natural language processing (NLP)[1] and computer vision (CV).[2]
-Like recurrent neural networks (RNNs), transformers are designed to process sequential input data, such as natural language, with applications towards tasks such as translation and text summarization. However, unlike RNNs, transformers process the entire input all at once. The attention mechanism provides context for any position in the input sequence. For example, if the input data is a natural language sentence, the transformer does not have to process one word at a time. This allows for more parallelization than RNNs and therefore reduces training times.[1]
-Transformers were introduced in 2017 by a team at Google Brain[1] and are increasingly the model of choice for NLP problems,[3] replacing RNN models such as long short-term memory (LSTM). The additional training parallelization allows training on larger datasets. This led to the development of pretrained systems such as BERT (Bidirectional Encoder Representations from Transformers) and GPT (Generative Pre-trained Transformer), which were trained with large language datasets, such as the Wikipedia Corpus and Common Crawl, and can be fine-tuned for specific tasks.[4][5]
-
 Generative Adversarial Network (GAN)
 Wikipedia: https://en.wikipedia.org/wiki/Generative_adversarial_network
 A generative adversarial network (GAN) is a class of machine learning frameworks designed by Ian Goodfellow and his colleagues in June 2014.[1] Two neural networks contest with each other in the form of a zero-sum game, where one agent's gain is another agent's loss.
@@ -140,10 +93,8 @@ Given a training set, this technique learns to generate new data with the same s
 The core idea of a GAN is based on the "indirect" training through the discriminator, another neural network that can tell how "realistic" the input seems, which itself is also being updated dynamically.[5] This means that the generator is not trained to minimize the distance to a specific image, but rather to fool the discriminator. This enables the model to learn in an unsupervised manner.
 GANs are similar to mimicry in evolutionary biology, with an evolutionary arms race between both networks.
 
-
 GPT (not ChatGPT)
 GAN
-BERT
 Large Language Model (LLM)
 Reinforcement Learning
 Active Learning
@@ -169,18 +120,6 @@ Dolly
 https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/
 
 https://aibusiness.com/meta/ai-luminary-yann-lecunn-sets-us-straight-on-generative-ai
-
-model cards
-learning to rank
-One-Shot, Few-Shot
-Transfer Learning
-Convolutional
-LSTM
-Support Vector Machine (SVM)
-MLM
-Gradient Boosted Trees
-
-
 
 MEND to edit LLMs https://hai.stanford.edu/news/how-do-we-fix-and-update-large-language-models
 

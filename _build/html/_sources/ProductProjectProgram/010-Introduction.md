@@ -2,16 +2,16 @@
 
 ... management.
 
-tradeoffs
+## Topics
 
-customer empathy
+Chapters to be written:
 
-risk mitigation
-
-budgeting
-
-work estimation
-
-prioritization
-
-agile
+* tradeoffs
+* customer empathy
+* risk mitigation
+* budgeting
+* work estimation
+* prioritization
+* agile
+* no model is perfect, product context matters
+* start with data science and design first with 6 month lead time
