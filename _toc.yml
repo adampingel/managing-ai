@@ -27,6 +27,7 @@ parts:
 
   - caption: Technology
     chapters:
+    - file: Technology/010-Introduction
     - file: Technology/070-Programming_Languages
 
   - caption: Culture, People, and Organizations
