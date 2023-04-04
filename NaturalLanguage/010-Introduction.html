@@ -167,9 +167,11 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="011-Linguistics.html">Linguistics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="013-Corpora.html">Corpora</a></li>
 <li class="toctree-l1"><a class="reference internal" href="500-Transformers.html">Transformers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="590-ChatGPT.html">ChatGPT</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Technology</span></p>
 <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../Technology/010-Introduction.html">Technology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Technology/070-Programming_Languages.html">Programming Languages</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Culture, People, and Organizations</span></p>
@@ -305,7 +307,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -321,6 +325,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#topics">Topics</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -332,16 +344,48 @@ document.write(`
                   
   <section id="natural-langauge">
 <h1>Natural Langauge<a class="headerlink" href="#natural-langauge" title="Permalink to this heading">#</a></h1>
+<section id="topics">
+<h2>Topics<a class="headerlink" href="#topics" title="Permalink to this heading">#</a></h2>
+<p>Chapters to be written:</p>
 <ul class="simple">
 <li><p>tokenization</p></li>
 <li><p>sentence splitting</p></li>
+<li><p>pos tagging</p></li>
 <li><p>coreference resolution</p></li>
 <li><p>baive nayes (NLP applications)</p></li>
 <li><p>bag of words</p></li>
 <li><p>word2vec</p></li>
 <li><p>sentiment analysis</p></li>
+<li><p>NER</p></li>
+<li><p>document segmentation</p></li>
+<li><p>document summarization</p></li>
 <li><p>topic modeling</p></li>
+<li><p>question answering</p></li>
+<li><p>Scaling Laws for Neural Language Models</p></li>
+<li><p>Mark Liberman’s “golden age of nlp” talk</p></li>
+<li><p>transformer architecture</p></li>
+<li><p>encoder/decoder</p></li>
+<li><p>self attention</p></li>
+<li><p>hyperparameter optimization (for NLP specifically)</p></li>
+<li><p>document similarity</p></li>
+<li><p>statistical fallacies</p></li>
+<li><p>annotation teams</p></li>
+<li><p>active learning</p></li>
+<li><p>Snorkel</p></li>
+<li><p>transfer learning</p></li>
+<li><p>explainability</p></li>
+<li><p>history: Eliza, Racter, cyc</p></li>
+<li><p>glove</p></li>
+<li><p>bert</p></li>
+<li><p>bloom</p></li>
+<li><p>GPT</p></li>
+<li><p>Xavier Amatrian’s catalog</p></li>
+<li><p>RLHF</p></li>
+<li><p>model updating Ala HAI’s Helm</p></li>
+<li><p>edit models.  (eg trained on github)</p></li>
+<li><p>prompt engineering</p></li>
 </ul>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -384,6 +428,20 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#topics">Topics</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

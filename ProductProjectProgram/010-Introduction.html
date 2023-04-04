@@ -169,9 +169,11 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="../NaturalLanguage/011-Linguistics.html">Linguistics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../NaturalLanguage/013-Corpora.html">Corpora</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../NaturalLanguage/500-Transformers.html">Transformers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../NaturalLanguage/590-ChatGPT.html">ChatGPT</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Technology</span></p>
 <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../Technology/010-Introduction.html">Technology</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Technology/070-Programming_Languages.html">Programming Languages</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Culture, People, and Organizations</span></p>
@@ -307,7 +309,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -323,6 +327,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#topics">Topics</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -335,13 +347,21 @@ document.write(`
   <section id="product-project-and-program">
 <h1>Product, Project, and Program<a class="headerlink" href="#product-project-and-program" title="Permalink to this heading">#</a></h1>
 <p>… management.</p>
-<p>tradeoffs</p>
-<p>customer empathy</p>
-<p>risk mitigation</p>
-<p>budgeting</p>
-<p>work estimation</p>
-<p>prioritization</p>
-<p>agile</p>
+<section id="topics">
+<h2>Topics<a class="headerlink" href="#topics" title="Permalink to this heading">#</a></h2>
+<p>Chapters to be written:</p>
+<ul class="simple">
+<li><p>tradeoffs</p></li>
+<li><p>customer empathy</p></li>
+<li><p>risk mitigation</p></li>
+<li><p>budgeting</p></li>
+<li><p>work estimation</p></li>
+<li><p>prioritization</p></li>
+<li><p>agile</p></li>
+<li><p>no model is perfect, product context matters</p></li>
+<li><p>start with data science and design first with 6 month lead time</p></li>
+</ul>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -402,6 +422,20 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#topics">Topics</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
