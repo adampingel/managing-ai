@@ -16,6 +16,7 @@ parts:
 
   - caption: Natural Language
     chapters:
+    - file: NaturalLangauge/010-Introduction
     - file: NaturalLanguage/011-Linguistics
     - file: NaturalLanguage/013-Corpora
       title: Corpora
@@ -36,3 +37,4 @@ parts:
     - file: Appendices/191-Charts
       title: Charts Demo
     - file: Appendices/900-Bibliography
+    - file: Appendices/999-ToDo
