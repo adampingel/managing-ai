@@ -22,6 +22,8 @@ parts:
       title: Corpora
     - file: NaturalLanguage/500-Transformers
       title: Transformers
+    - file: NaturalLanguage/590-ChatGPT
+      title: ChatGPT
 
   - caption: Technology
     chapters:
