@@ -7,6 +7,7 @@ Chapters to be written:
 * tokenization
 * sentence splitting
 * pos tagging
+* parsing
 * coreference resolution
 * baive nayes (NLP applications)
 * bag of words
