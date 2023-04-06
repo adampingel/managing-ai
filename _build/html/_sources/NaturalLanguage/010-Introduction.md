@@ -9,7 +9,7 @@ Chapters to be written:
 * pos tagging
 * parsing
 * coreference resolution
-* baive nayes (NLP applications)
+* naive bayes (NLP applications)
 * bag of words
 * word2vec
 * sentiment analysis
