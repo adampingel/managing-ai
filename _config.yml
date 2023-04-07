@@ -13,3 +13,9 @@ sphinx:
     - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
     bibtex_reference_style: author_year
     bibtex_bibfiles: "bibliography.bib"
+repository:
+  url: https://github.com/adampingel/managing-ai
+  branch: main
+launch_buttons:
+  colab_url: "https://colab.research.google.com"
+
