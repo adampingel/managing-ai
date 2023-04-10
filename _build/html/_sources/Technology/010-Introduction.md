@@ -10,3 +10,9 @@ Chapters to be written:
 * cloud vendors
 * tools
 * notebooks
+* when to go beyond OSS/OTS software?
+* latency measurements
+* cost management
+* ecosystems: metrics, lifecycle, engagement
+* event sourcing
+* knowledge graphs

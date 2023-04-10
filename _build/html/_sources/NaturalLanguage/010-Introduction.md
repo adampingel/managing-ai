@@ -32,6 +32,9 @@ Chapters to be written:
 * transfer learning
 * explainability
 * history: Eliza, Racter, cyc
+* Large Language Models
+* attribution
+* bottleneck problem
 * “Attention is all you need” paper
 * glove
 * bert
@@ -50,9 +53,40 @@ Chapters to be written:
     * https://huggingface.co/spaces/microsoft/Promptist
     * https://github.com/microsoft/LMOps
 * Prompt Tuning info from Ben Lorica
+* BERT vs GPT
+  * https://www.linkedin.com/posts/juliaelzini_bert-gpt-transformer-activity-7046045851307167744-eo_E?utm_source=share&utm_medium=member_android
+* Yann LeCun
+  * Review of his keynote at World Artificial Intelligence Cannes Festival (WAICF): https://aibusiness.com/meta/ai-luminary-yann-lecunn-sets-us-straight-on-generative-ai
+* Building “domain-specific intelligent bots with GPT and reinforcement learning on AWS SageMaker” by Arun Shankar
+  * https://medium.com/@shankar.arunp/chatgpt-decoded-an-expert-guide-to-mastering-the-technology-and-building-domain-specific-3a95b42827bb
+
+## Commercial and Open Source Software
+
+AWS Ground Truth
+AWS Human in the Loop
+Snorkel
+SparkNLP
+https://nlp.johnsnowlabs.com/docs/en/install
+OpenAI
+Google Bard commercial fuck-up. What could they have done?
+BERT
+RoBERTA
+Lambda
+Spacey
+Fixie
+
+## Argilla
+Website: https://docs.argilla.io/en/latest/index.html
+Quickstart: https://docs.argilla.io/en/latest/getting_started/quickstart.html
+Argilla Client: a powerful Python library for reading and writing data into Argilla, using all the libraries you love (transformers, spaCy, datasets, and any other).
+Argilla Server and UI: the API and UI for data annotation and curation.
+
+Create New Hugging Face space
+https://huggingface.co/spaces/pingel/ArgillaTest?logs=build
+github
 
 
-# In-Context Learning
+## In-Context Learning
 
 “What Learning Algorithm is In-Context Learning? Investigations with Linear Models“
 arxiv: https://arxiv.org/pdf/2211.15661.pdf
@@ -103,3 +137,8 @@ initial draft, ask for suggestions, and repeatedly make changes. Agnostic of thi
 ## Prompt Chaining
 
 LangChain https://github.com/hwchase17/langchain
+
+## Spacy
+
+spacy course https://www.datacamp.com/courses/advanced-nlp-with-spacy
+https://course.spacy.io/en/

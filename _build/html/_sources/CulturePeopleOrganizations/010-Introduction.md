@@ -14,4 +14,10 @@ team topologies
 
 triangulation and corroboration
 
-proof
+asking for proof
+
+people management
+hiring
+conferences
+ongoing learning
+education
