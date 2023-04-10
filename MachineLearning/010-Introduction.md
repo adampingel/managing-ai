@@ -7,7 +7,7 @@ Basic mathematical concepts that span machine learning
 Something about gradient descent
 
 * model cards
-* learning to rank
+* model quality evaluation
 * One-Shot, Few-Shot
 * Transfer Learning
 * Convolutional Neural Networks
@@ -21,6 +21,8 @@ Something about gradient descent
 * Reinforcement Learning
 * Active Learning
 * Self-Supervision
+* Yann LeCun's Deep Learning course
+  * https://atcold.github.io/pytorch-Deep-Learning/
 
 ## Semi-Supervised Learning
 

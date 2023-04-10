@@ -20,6 +20,7 @@ parts:
     - file: NaturalLanguage/011-Linguistics
     - file: NaturalLanguage/013-Corpora
       title: Corpora
+    - file: NaturalLanguage/200-Search
     - file: NaturalLanguage/500-Transformers
       title: Transformers
     - file: NaturalLanguage/550-KnowledgeRetrieval
