@@ -15,6 +15,8 @@ Chapters to be written:
 * agile
 * no model is perfect, product context matters
 * start with data science and design first with 6 month lead time
+* budget
+* demo cadence
 
 tradeoffs
   * Costs: labor, cloud, hardware, software, data, ...

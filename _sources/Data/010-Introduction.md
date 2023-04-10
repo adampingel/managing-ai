@@ -8,3 +8,5 @@
 * deduplication
 * PII
 * provenance
+* change data capture
+* testing and data quality monitoring
