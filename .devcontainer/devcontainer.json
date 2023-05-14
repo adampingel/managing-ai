@@ -2,8 +2,10 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/python
 {
 	"name": "Python 3",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/python:0-3.11",
+	"build": {
+        // Path is relataive to the devcontainer.json file.
+        "dockerfile": "Dockerfile"
+    },
 	// TODO pip3 install -r requirements.txt
 	"features": {
 		"ghcr.io/devcontainers/features/python:1": {}
