@@ -310,7 +310,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -326,6 +328,17 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#editing-jupyter-notebooks">Editing Jupyter Notebooks</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#local-builds">Local builds</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#publishing">Publishing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#publishing-from-local-environment">Publishing from local environment</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -337,14 +350,35 @@ document.write(`
                   
   <section id="managing-ai">
 <h1>managing-ai<a class="headerlink" href="#managing-ai" title="Permalink to this heading">#</a></h1>
-<p>Edit the markdown files, or run jupyter lab to edit the notebooks</p>
+<p>A book published to <a class="reference external" href="https://adampingel.github.io/managing-ai/">https://adampingel.github.io/managing-ai/</a></p>
+<p>A set of Markdown files and Jupyter Notebooks build with Jupyter Book
+and published to GitHub Pages.</p>
+<section id="editing-jupyter-notebooks">
+<h2>Editing Jupyter Notebooks<a class="headerlink" href="#editing-jupyter-notebooks" title="Permalink to this heading">#</a></h2>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>jupyter<span class="w"> </span>lab
 </pre></div>
 </div>
-<p>To build and publish the book, do this from the project root:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>./buid.sh
+</section>
+<section id="local-builds">
+<h2>Local builds<a class="headerlink" href="#local-builds" title="Permalink to this heading">#</a></h2>
+<p>To build the book locally, do this from the project root:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>jupyter-book<span class="w"> </span>clean<span class="w"> </span>.
+jupyter-book<span class="w"> </span>build<span class="w"> </span>.
 </pre></div>
 </div>
+</section>
+<section id="publishing">
+<h2>Publishing<a class="headerlink" href="#publishing" title="Permalink to this heading">#</a></h2>
+<p>A GitHub action in <code class="docutils literal notranslate"><span class="pre">.github/workflows/book_gh_pages.yml</span></code> publishes the book to GH Pages.
+It is configured to run for all commits to <code class="docutils literal notranslate"><span class="pre">main</span></code>.</p>
+<p>See the <a class="reference external" href="https://github.com/adampingel/managing-ai/actions/workflows/book_gh_pages.yml">run log</a></p>
+</section>
+<section id="publishing-from-local-environment">
+<h2>Publishing from local environment<a class="headerlink" href="#publishing-from-local-environment" title="Permalink to this heading">#</a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ghp-import<span class="w"> </span>-n<span class="w"> </span>-p<span class="w"> </span>-f<span class="w"> </span>_build/html
+</pre></div>
+</div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -387,6 +421,23 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#editing-jupyter-notebooks">Editing Jupyter Notebooks</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#local-builds">Local builds</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#publishing">Publishing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#publishing-from-local-environment">Publishing from local environment</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
